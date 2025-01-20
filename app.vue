@@ -1,11 +1,12 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <v-app>
+      <NuxtPage />
+    </v-app>
+  </NuxtLayout>
 </template>
 
 <script lang="ts" setup>
-const year: string = "2022"
-const _title: string = `${year} iThome 鐵人賽`
+const _version: string = "1.0"
+const _title: string = "Nuxt Demo"
 </script>

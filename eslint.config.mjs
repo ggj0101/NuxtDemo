@@ -12,22 +12,6 @@ import withNuxt from "./.nuxt/eslint.config.mjs"
 
 export default withNuxt(
   // Your custom configs here
-  stylistic.configs["recommended-flat"],
-  {
-    plugins: {
-      "@stylistic/ts": stylisticTs,
-    },
-    languageOptions: {
-      parser: tseslint.parser,
-    },
-    rules: {
-      "@stylistic/ts/indent": ["error", 2],
-      "@stylistic/ts/semi": ["error", "never"],
-      "@stylistic/no-tabs": ["error", { allowIndentationTabs: true }],
-      "@stylistic/quotes": ["error", "double"],
-    },
-  },
-
   // vue
   ...vue.configs["flat/recommended"],
   {

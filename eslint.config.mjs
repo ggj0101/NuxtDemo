@@ -1,8 +1,8 @@
 // @ts-check
 
-import stylistic from "@stylistic/eslint-plugin"
+// import stylistic from "@stylistic/eslint-plugin"
 
-import stylisticTs from "@stylistic/eslint-plugin-ts"
+// import stylisticTs from "@stylistic/eslint-plugin-ts"
 
 import tseslint from "typescript-eslint"
 

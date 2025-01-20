@@ -7,6 +7,11 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxt/eslint","vuetify-nuxt-module"],
 
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-generate/' : '/',
+    buildAssetsDir: '/static/'
+  }
+
   /*
   routeRules: {
     // Homepage pre-rendered at build time

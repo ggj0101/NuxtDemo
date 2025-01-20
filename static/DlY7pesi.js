@@ -1,0 +1,1 @@
+import{d as t,t as n,v as a,y as e}from"./DzrwsatQ.js";const o="2025",s="PAGE INDEX",l=t({__name:"index",setup(r){return(c,p)=>(n(),a("h1",null,"Index page "+e(s)+" : "+e(o)))}});export{l as default};

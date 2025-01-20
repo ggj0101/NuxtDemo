@@ -1,0 +1,1 @@
+import{d as n,t as s,v as o,x as e,y as a}from"./DzrwsatQ.js";const t="2025",l="PAGE ABOUT",i=n({__name:"about",setup(c){return(p,r)=>(s(),o("div",null,[e("div",{class:"d-block pa-2 bg-deep-purple"},[e("h1",null,"Index page "+a(l)+" : "+a(t))]),e("div",{class:"d-block pa-2 bg-black"},[e("h1",null,"Index page "+a(l)+" : "+a(t))])]))}});export{i as default};

@@ -1,11 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  compatibilityDate: "2024-11-01",
+
   typescript: {
     typeCheck: true,
   },
-  modules: ["@nuxt/eslint","vuetify-nuxt-module"],
+
+  experimental: { appManifest: false },
+  modules: ["vuetify-nuxt-module"],
 
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/nuxt3-generate/' : '/',
@@ -27,7 +29,7 @@ export default defineNuxtConfig({
     // Redirects legacy urls
     '/old-page': { redirect: '/new-page' }
   }
-    */
+    */,
 
-
+  compatibilityDate: '2025-01-21'
 })
